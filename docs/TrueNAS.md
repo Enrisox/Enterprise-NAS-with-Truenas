@@ -50,7 +50,7 @@ Collega un **cavo VGA** alla porta video del server (non HDMI/displayPort). <br>
 4. Scegli il file ISO di **TrueNAS** precedentemente scaricato.
 5. Clicca su **Map Device** per montare l'immagine come unità ottica virtuale.
 
-6. ### Verifica presenza RAID Controller
+### Verifica presenza RAID Controller
 
 1. Spegni il server in sicurezza.
 2. Apri il coperchio superiore del Dell PowerEdge R730xd.
