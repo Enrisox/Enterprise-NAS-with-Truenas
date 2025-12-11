@@ -2,8 +2,8 @@
 Monta i dischi SATA SSD nelle slitte e inseriscile negli alloggiamenti anteriori del server DELL.
 Collega un **cavo Ethernet RJ45** alla porta **dedicata iDRAC** (etichettata "iDRAC" sul retro del server Dell PowerEdge R730xd).
 Collega l'**alimentazione** (verifica che entrambi gli alimentatori siano accoppiati se ridondanti).
-Collega un **cavo VGA** alla porta video del server (non HDMI/displayPort).
-![installazione dischi ](./img/truenas2.png)
+Collega un **cavo VGA** alla porta video del server (non HDMI/displayPort). <br>
+![installazione dischi ](./imgs/truenas2.png)
 
 ## Configurazione rete iDRAC su Dell PowerEdge R730xd
 
