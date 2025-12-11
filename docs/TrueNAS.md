@@ -3,7 +3,7 @@ Monta i dischi SATA SSD nelle slitte e inseriscile negli alloggiamenti anteriori
 Collega un **cavo Ethernet RJ45** alla porta **dedicata iDRAC** (etichettata "iDRAC" sul retro del server Dell PowerEdge R730xd).
 Collega l'**alimentazione** (verifica che entrambi gli alimentatori siano accoppiati se ridondanti).
 Collega un **cavo VGA** alla porta video del server (non HDMI/displayPort). <br>
-![Schermata di boot TrueNAS con IP assegnato](imgs/truenas2.png)
+![Schermata di boot TrueNAS con IP assegnato](./imgs/truenas2.png)
 
 
 ## Configurazione rete iDRAC su Dell PowerEdge R730xd
@@ -78,7 +78,7 @@ Collega un **cavo VGA** alla porta video del server (non HDMI/displayPort). <br>
 4. Dal tuo PC, apri il browser e collegati a quell'indirizzo IP.
 5. Effettua il login con le credenziali di default (oppure con quelle impostate in fase di installazione).
 
-![Schermata di boot TrueNAS con IP assegnato](imgs/truenas1.png)
+![Schermata di boot TrueNAS con IP assegnato](./imgs/truenas1.png)
 
 ### Creazione del pool di storage
 
