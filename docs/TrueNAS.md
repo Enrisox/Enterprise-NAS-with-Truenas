@@ -1,9 +1,14 @@
-# Primi passi
-Monta i dischi SATA SSD nelle slitte e inseriscile negli alloggiamenti anteriori del server DELL.
-Collega un **cavo Ethernet RJ45** alla porta **dedicata iDRAC** (etichettata "iDRAC" sul retro del server Dell PowerEdge R730xd).
-Collega l'**alimentazione** (verifica che entrambi gli alimentatori siano accoppiati se ridondanti).
-Collega un **cavo VGA** alla porta video del server (non HDMI/displayPort). <br> <br>
+# Montare dischi e slitte
+1. Monta i dischi SATA SSD nelle slitte e inseriscile negli alloggiamenti anteriori del server DELL.
+2. Collega un **cavo Ethernet RJ45** alla porta **dedicata iDRAC** (etichettata "iDRAC" sul retro del server Dell PowerEdge R730xd).
+3. Collega l'**alimentazione** (verifica che entrambi gli alimentatori siano accoppiati se ridondanti).
+4. Collega un **cavo VGA** alla porta video del server (non HDMI/displayPort). 
 
+### Verifica presenza RAID Controller
+
+1. Spegni il server in sicurezza.
+2. Apri il coperchio superiore del Dell PowerEdge R730xd.
+3. Verifica la presenza di un **Dell PERC H730** (o controller RAID equivalente) collegato alla backplane dei dischi, necessario per la gestione dei dischi posteriori.<br> <br>
 ![Schermata di boot TrueNAS con IP assegnato](../imgs/truenas2.png)
 
 
@@ -49,12 +54,6 @@ Collega un **cavo VGA** alla porta video del server (non HDMI/displayPort). <br>
 3. Seleziona **Map CD/DVD**.
 4. Scegli il file ISO di **TrueNAS** precedentemente scaricato.
 5. Clicca su **Map Device** per montare l'immagine come unità ottica virtuale.
-
-### Verifica presenza RAID Controller
-
-1. Spegni il server in sicurezza.
-2. Apri il coperchio superiore del Dell PowerEdge R730xd.
-3. Verifica la presenza di un **Dell PERC H730** (o controller RAID equivalente) collegato alla backplane dei dischi, necessario per la gestione dei dischi posteriori.
 
 ### Boot da Virtual Optical Drive
 
