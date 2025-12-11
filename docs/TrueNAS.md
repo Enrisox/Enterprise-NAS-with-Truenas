@@ -64,7 +64,7 @@
 5. Esegui un **cold boot** se necessario (riavvio a freddo senza togliere alimentazione, dal menu iDRAC o dal front panel).
 
 ### Installazione TrueNAS
-![Schermata TrueNAS ](../imgs/truenas3.png)
+![Schermata TrueNAS ](../imgs/truenas3.png.png)
 <br>
 1. Dal menu di boot seleziona l'opzione **Install/Upgrade** TrueNAS.
 2. Premi **Enter** e per ridondanza scegli entrambi gli ssd posteriori
